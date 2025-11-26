@@ -9,17 +9,21 @@ import About from "@/pages/about";
 import Services from "@/pages/services";
 import Clients from "@/pages/clients";
 import Contact from "@/pages/contact";
+import { ScrollToTop } from "@/components/scroll-to-top";
 
 function Router() {
   return (
-    <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/services" component={Services} />
-      <Route path="/clients" component={Clients} />
-      <Route path="/contact" component={Contact} />
-      <Route component={NotFound} />
-    </Switch>
+    <>
+      <ScrollToTop />
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/services" component={Services} />
+        <Route path="/clients" component={Clients} />
+        <Route path="/contact" component={Contact} />
+        <Route component={NotFound} />
+      </Switch>
+    </>
   );
 }
 

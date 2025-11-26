@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { CheckCircle2 } from "lucide-react";
-import founderImage from "@assets/generated_images/professional_indian_chartered_accountant_portrait.png";
+import founderImage from "@assets/Picture1_1764136918298.jpg";
 
 export default function About() {
   return (
