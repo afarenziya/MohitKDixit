@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { CheckCircle2 } from "lucide-react";
-import founderImage from "@assets/Picture1_1764136918298.jpg";
+import founderImage from "@assets/yupp-generated-image-762265_1764138355504.png";
 
 export default function About() {
   return (
