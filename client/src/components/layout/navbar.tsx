@@ -67,14 +67,14 @@ export function Navbar() {
 
         {/* Mobile Nav Overlay */}
         {isOpen && (
-          <div className="fixed top-20 left-0 right-0 bottom-0 z-40 bg-white/95 backdrop-blur-sm border-t flex flex-col items-start justify-start p-8 gap-6 md:hidden animate-in slide-in-from-top-5 fade-in duration-300">
+          <div className="fixed top-20 left-0 right-0 bottom-0 z-40 bg-white border-t flex flex-col items-start justify-start p-6 gap-4 md:hidden animate-in slide-in-from-top-2 fade-in duration-200">
             {links.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
                 className={cn(
-                  "text-lg font-medium transition-colors hover:text-primary w-full py-2 border-b border-slate-100",
+                  "text-lg font-medium transition-colors hover:text-primary w-full py-3 border-b border-slate-100",
                   location === link.href
                     ? "text-primary font-semibold"
                     : "text-muted-foreground"
@@ -83,9 +83,9 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <a href="tel:+919871775302" onClick={() => setIsOpen(false)} className="w-full mt-2">
-              <Button size="lg" className="w-full gap-2">
-                <Phone className="h-4 w-4" />
+            <a href="tel:+919871775302" onClick={() => setIsOpen(false)} className="w-full mt-4">
+              <Button size="lg" className="w-full gap-2 text-lg h-12 shadow-md">
+                <Phone className="h-5 w-5" />
                 +91 98717 75302
               </Button>
             </a>
