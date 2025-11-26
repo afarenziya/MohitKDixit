@@ -1,0 +1,133 @@
+Create a professional portfolio website for:
+"MOHIT K DIXIT & ASSOCIATES – Chartered Accountants"
+
+About the Firm
+
+M/s Mohit K Dixit & Associates is a Chartered Accountancy firm established and managed by CA Mohit Kumar Dixit, having 14+ years of experience in audit, taxation, GST, accounting, corporate compliance, and financial advisory.
+The firm is committed to providing accurate, ethical, and value-driven professional services to individuals, firms, LLPs, companies, trusts, and small-to-medium businesses.
+Focus areas: quality, integrity, professionalism, and client satisfaction.
+
+Founder Profile
+
+CA Mohit Kumar Dixit (FCA, B.Com)
+Proprietor | 14+ Years Experience
+Expertise in statutory audit, tax audit, internal audit, GST audit, stock audit, certifications, income tax, GST law, TDS/TCS, tax assessments, financial statements, accounting systems (SAP, Tally, Busy, Zoho Books), MCA/ROC compliance, annual filings, and financial advisory.
+
+Services to Display on Website
+
+Statutory Audit
+
+Tax Audit
+
+Internal Audit
+
+GST Audit
+
+Stock & Revenue Audit
+
+Income Tax Return Filing
+
+GST Return Filing & Annual Return
+
+GST Reconciliation
+
+Tax Planning & Advisory
+
+Assessment Representation
+
+TDS/TCS Compliance
+
+Accounting & Bookkeeping
+
+Financial Statements & Finalisation
+
+Cash Flow & MIS Reporting
+
+Payroll Management
+
+MCA/ROC Compliance
+
+Company & LLP Incorporation
+
+Corporate Legal Documentation
+
+Certifications & Attestations
+
+Client Names to Display (Only Names, Not Details)
+
+Canara Bank – Statutory Audit
+
+Punjab & Sind Bank – Statutory Audit
+
+United Bank of India – Statutory Audit
+
+Client Logos to Add
+
+Canara Bank
+
+Punjab & Sind Bank
+
+United Bank of India
+
+Use a Professional Image for the CA Profile Section
+
+Add a general “Professional Indian Chartered Accountant” image to represent the founder.
+(Use stock image if real image not provided.)
+
+Do NOT Include
+
+Team members’ images
+
+Team members’ names
+
+Team designations
+
+Contact Information
+
+Email:
+
+mohit@mohitkdixit.com
+
+mohitkdixit@gmail.com
+
+mohitkdixitca@gmail.com
+
+Mobile: 9871775302
+
+Address:
+1st Floor, 568, Niti Khand-3,
+Indirapuram, Ghaziabad – 201014
+Uttar Pradesh, India
+
+Location Map Link:
+https://maps.app.goo.gl/PmXgDJhofszYdwyN9?g_st=iw
+
+Website: www.mohitkdixit.com
+
+Tone & Style of Website
+
+Clean, modern, premium design
+
+Professional blue & white theme (CA standard look)
+
+Use icons for services
+
+Highlight experience, trust, & professionalism
+
+Include a contact form & Google Maps embed
+
+Include CTA button: “Book Consultation” / “Contact Now”
+
+Add Testimonials section (auto-generate professional placeholders)
+
+Website Pages Needed
+
+Home
+
+About the Firm
+
+Services
+
+Clients
+
+Contact Us
