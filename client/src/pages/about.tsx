@@ -54,7 +54,7 @@ export default function About() {
                 <img 
                   src={founderImage} 
                   alt="CA Mohit Kumar Dixit" 
-                  className="absolute inset-0 w-full h-full object-cover ml-[10px] mr-[10px] mt-[10px] mb-[10px] pl-[10px] pr-[10px] pt-[10px] pb-[10px]"
+                  className="absolute inset-0 w-full h-full object-cover pl-[0px] pr-[0px] ml-[0px] mr-[0px] mt-[0px] mb-[0px] pt-[0px] pb-[0px]"
                 />
               </div>
               <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center">
