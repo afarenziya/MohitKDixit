@@ -7,7 +7,6 @@ export default function About() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Navbar />
-      
       {/* Header */}
       <div className="bg-slate-50 py-16 md:py-24">
         <div className="container text-center">
@@ -17,7 +16,6 @@ export default function About() {
           </p>
         </div>
       </div>
-
       {/* Firm Profile */}
       <section className="py-20">
         <div className="container">
@@ -47,7 +45,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
       {/* Founder Profile */}
       <section className="py-20 bg-slate-50">
         <div className="container">
@@ -57,7 +54,7 @@ export default function About() {
                 <img 
                   src={founderImage} 
                   alt="CA Mohit Kumar Dixit" 
-                  className="absolute inset-0 w-full h-full object-cover"
+                  className="absolute inset-0 w-full h-full object-cover ml-[10px] mr-[10px] mt-[10px] mb-[10px] pl-[10px] pr-[10px] pt-[10px] pb-[10px]"
                 />
               </div>
               <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center">
@@ -95,7 +92,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
