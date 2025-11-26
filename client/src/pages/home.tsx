@@ -1,5 +1,7 @@
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { ScrollToTopButton } from "@/components/scroll-to-top-button";
+import { WhatsAppButton } from "@/components/whatsapp-button";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { useForm } from "react-hook-form";
@@ -229,8 +231,9 @@ export default function Home() {
               <div className="md:col-span-2 h-full min-h-[400px] md:min-h-full relative">
                 <img 
                   src={founderImage} 
-                  alt="CA Mohit Kumar Dixit" 
+                  alt="CA Mohit Kumar Dixit - Founder and Chartered Accountant with 14+ years of experience in Audit, Taxation, and Financial Advisory" 
                   className="absolute inset-0 w-full h-full object-cover object-top"
+                  loading="lazy"
                 />
               </div>
               <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center">
@@ -558,6 +561,10 @@ export default function Home() {
       </section>
 
       <Footer />
+      
+      {/* Floating Action Buttons */}
+      <WhatsAppButton />
+      <ScrollToTopButton />
     </div>
   );
 }
