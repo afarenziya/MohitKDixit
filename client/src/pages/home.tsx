@@ -24,7 +24,7 @@ export default function Home() {
             <div className="inline-flex items-center rounded-full border border-secondary/30 bg-secondary/10 px-3 py-1 text-sm text-secondary backdrop-blur-sm">
               <span className="font-medium">Established & Trusted Since 2010</span>
             </div>
-            <h1 className="font-serif text-4xl md:text-6xl font-bold text-white leading-tight">
+            <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
               Expert Financial <br />
               <span className="text-secondary">Guidance</span> You Can Trust
             </h1>

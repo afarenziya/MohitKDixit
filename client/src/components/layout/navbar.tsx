@@ -38,7 +38,7 @@ export function Navbar() {
                 "text-sm font-medium transition-colors hover:text-primary",
                 location === link.href
                   ? "text-primary font-semibold"
-                  : "text-muted-foreground"
+                  : "text-muted-foreground",
               )}
             >
               {link.label}
@@ -47,7 +47,7 @@ export function Navbar() {
           <a href="tel:+919871775302">
             <Button size="sm" className="gap-2">
               <Phone className="h-4 w-4" />
-              +91 98717 75302
+              Book Consultation
             </Button>
           </a>
         </div>
@@ -67,24 +67,24 @@ export function Navbar() {
 
         {/* Mobile Nav Overlay */}
         {isOpen && (
-          <div className="fixed inset-0 z-40 bg-background flex flex-col items-center justify-center gap-8 md:hidden animate-in slide-in-from-top-10 fade-in duration-300">
+          <div className="fixed top-20 left-0 right-0 bottom-0 z-40 bg-white/95 backdrop-blur-sm border-t flex flex-col items-start justify-start p-8 gap-6 md:hidden animate-in slide-in-from-top-5 fade-in duration-300">
             {links.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
                 className={cn(
-                  "text-2xl font-serif font-medium transition-colors hover:text-primary",
+                  "text-lg font-medium transition-colors hover:text-primary w-full py-2 border-b border-slate-100",
                   location === link.href
-                    ? "text-primary"
+                    ? "text-primary font-semibold"
                     : "text-muted-foreground"
                 )}
               >
                 {link.label}
               </Link>
             ))}
-            <a href="tel:+919871775302" onClick={() => setIsOpen(false)}>
-              <Button size="lg" className="mt-4 gap-2">
+            <a href="tel:+919871775302" onClick={() => setIsOpen(false)} className="w-full mt-2">
+              <Button size="lg" className="w-full gap-2">
                 <Phone className="h-4 w-4" />
                 +91 98717 75302
               </Button>
