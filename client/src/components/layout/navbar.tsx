@@ -44,12 +44,12 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link href="/contact">
+          <a href="tel:+919871775302">
             <Button size="sm" className="gap-2">
               <Phone className="h-4 w-4" />
-              Book Consultation
+              +91 98717 75302
             </Button>
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Nav Toggle */}
@@ -83,12 +83,12 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link href="/contact" onClick={() => setIsOpen(false)}>
+            <a href="tel:+919871775302" onClick={() => setIsOpen(false)}>
               <Button size="lg" className="mt-4 gap-2">
                 <Phone className="h-4 w-4" />
-                Book Consultation
+                +91 98717 75302
               </Button>
-            </Link>
+            </a>
           </div>
         )}
       </div>
