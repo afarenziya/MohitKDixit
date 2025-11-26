@@ -81,7 +81,7 @@ export function Footer() {
 
       <div className="container border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-xs text-primary-foreground/60">
-          © {new Date().getFullYear()} Mohit K Dixit & Associates. All rights reserved.
+          Designed by AJAY FARENZIYA © {new Date().getFullYear()} Mohit K Dixit & Associates. All rights reserved.
         </p>
         <div className="flex items-center gap-4">
           <a href="#" className="text-primary-foreground/60 hover:text-white transition-colors">
