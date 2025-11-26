@@ -1,4 +1,3 @@
-import { Link } from "wouter";
 import { MapPin, Phone, Mail, Facebook, Linkedin, Twitter } from "lucide-react";
 
 export function Footer() {
@@ -23,19 +22,19 @@ export function Footer() {
           <h3 className="font-serif font-semibold text-lg mb-6 text-white">Quick Links</h3>
           <ul className="space-y-3 text-sm text-primary-foreground/80">
             <li>
-              <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              <a href="#home" className="hover:text-white transition-colors">Home</a>
             </li>
             <li>
-              <Link href="/about" className="hover:text-white transition-colors">About Firm</Link>
+              <a href="#about" className="hover:text-white transition-colors">About Firm</a>
             </li>
             <li>
-              <Link href="/services" className="hover:text-white transition-colors">Our Services</Link>
+              <a href="#services" className="hover:text-white transition-colors">Our Services</a>
             </li>
             <li>
-              <Link href="/clients" className="hover:text-white transition-colors">Clients</Link>
+              <a href="#clients" className="hover:text-white transition-colors">Clients</a>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-white transition-colors">Contact Us</Link>
+              <a href="#contact" className="hover:text-white transition-colors">Contact Us</a>
             </li>
           </ul>
         </div>
